@@ -1,0 +1,138 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+    box-sizing:border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+    background: rgb(248, 248, 246);
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+    height: 100vh;
+}
+
+.solid{
+    background: rgba(247, 245, 245, 0.94);
+    border: black 3px solid;
+    height:200px;
+    padding:20px;
+    margin: 10px;
+}
+
+.purple, .green,.circle{
+    display: inline-block;
+    padding: 30px;
+    margin: 50px 50px;
+}
+
+.purple{
+    background: rgb(102, 9, 116);
+    height: 123px;
+    width:34px;
+    padding:0px;
+    margin:0px;
+
+}
+.green{
+    background: rgb(49, 128, 73);
+    height: 150px;
+    width:250px;
+    padding:25px 25px;
+    margin:5px 33px;
+
+}
+.circle{
+    background: rgb(115, 162, 233);
+    height: 115px;
+    width:110px;
+    padding:0px;
+    margin: 0 auto;
+    border-radius: 100px;
+
+}
+.container{
+    background: rgba(249, 241, 241, 0.94);
+    height:200px;
+    padding:30px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+
+.dots{
+    border: black 3px dotted;
+    height:200px;
+    padding:20px;
+    margin: 10px;
+}
+
+.beige{
+    background: rgb(237, 225, 178);
+    height: 115px;
+    width:95%;
+    padding:10px 10px;
+    margin:5px 10px;
+    box-shadow: 5px 5px rgb(104, 102, 102);
+}
+
+.shadow{
+    background: rgb(250, 250, 248);
+    height: 200px;
+    border: rgb(184, 183, 183) 1px solid;
+    width:40%;
+    padding:10px 10px;
+    margin:0 auto;
+    box-shadow: 2px 2px rgb(104, 102, 102);
+}
+
+.friends{
+    font-family: 'Times New Roman';
+    color: rgb(12, 12, 136);
+    font-size: 24px;
+    text-align: center;
+    padding: 50px 50px;
+    font-weight: bold;
+
+}

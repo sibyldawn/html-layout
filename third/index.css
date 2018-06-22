@@ -1,0 +1,95 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+    box-sizing:border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+    background: rgb(247, 240, 50);
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+    height: 100vh;
+}
+
+header{
+    background: rgba(212, 207, 207, 0.94);
+    height:150px;
+    padding:20px;
+}
+
+.babyBlue{
+    background: rgb(90, 141, 218);
+    height: 115px;
+    width:110px;
+    padding:0px;
+    margin:0px;
+
+}
+
+.container{
+    background: rgba(249, 241, 241, 0.94);
+    height:200px;
+    padding:30px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+
+.blue, .teal, .green{
+    height:140px;
+    padding:30px;
+}
+
+.blue{
+    background: rgb(33, 163, 233);
+}
+
+.teal{
+    background: rgb(115, 216, 172)
+}
+
+.green{
+    background: rgb(171, 210, 114)
+}
